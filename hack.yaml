@@ -78,17 +78,19 @@ image:
     draw_method: 'phot'
     use_fft_bright: True
 
+    # noise:
+    #     # These are all by default turned on, but you can turn any of them off if desired:
+    #     type: RomanNoise
+    #     stray_light: True
+    #     thermal_background: True
+    #     reciprocity_failure: True
+    #     dark_current: True
+    #     nonlinearity: True
+    #     ipc: True
+    #     read_noise: True
+    #     sky_subtract: False
     noise:
-        # These are all by default turned on, but you can turn any of them off if desired:
-        type: RomanNoise
-        stray_light: True
-        thermal_background: True
-        reciprocity_failure: True
-        dark_current: True
-        nonlinearity: True
-        ipc: True
-        read_noise: True
-        sky_subtract: False
+        type: NoNoise
 
 stamp:
     type: Roman_stamp
