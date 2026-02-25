@@ -14,5 +14,5 @@ git lfs install
 If that is reported as an unknown command, install Git LFS first by following the instructions on their [homepage](https://git-lfs.com/).
 Then proceed with cloning as usual
 ```bash
-git clone https://github.com/DukeCosmology/SimHackJune2025
+git clone https://github.com/DukeCosmology/roman_imsim_testdata
 ```
