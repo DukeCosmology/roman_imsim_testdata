@@ -24,4 +24,4 @@ input.sky_catalog.obj_types: ["diffsky_galaxy", "snana", "star", "gaia_star"]
 output.dir: output/RomanWAS_new/images/truth
 output.file_name.format: "Roman_WAS_truth_%s_%i_%i.fits.gz"
 output.truth.dir: output/RomanWAS_new/truth
-
+output.truth.file_name.format: "Roman_WAS_index_%s_%i_%i.txt"
