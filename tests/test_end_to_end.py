@@ -10,12 +10,6 @@ OUTPUT_DIR = "output"
 
 TEST_REPO = "."
 
-
-pytestmark = pytest.mark.skipif(
-    len(list(Path(TEST_REPO).iterdir())) == 0,
-    reason=f"Test data not available; {TEST_REPO} not initialized/updated",
-)
-
 ATOL = 0.1
 RTOL = 0
 
