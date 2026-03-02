@@ -2,7 +2,9 @@ name: End-to-end Test
 
 on:
   push:
-    branches: [ main ]
+    paths:
+      - 'hack.yaml'
+      - 'reference/**'
   workflow_dispatch: null
 
 jobs:
