@@ -31,7 +31,13 @@ jobs:
       - name: Install roman_imsim
         run: |
           python -m pip install --upgrade pip
-          pip install git+https://github.com/DukeCosmology/roman_imsim.git@${BRANCH_NAME}
+          if git ls-remote --exit-code https://github.com/DukeCosmology/roman_imsim.git ${BRANCH_NAME}; then
+              echo "branch ${BRANCH_NAME} exists in roman_imsim"
+              pip install git+https://github.com/DukeCosmology/roman_imsim.git@${BRANCH_NAME}
+          else
+              echo "branch ${BRANCH_NAME} does not exist in roman_imsim; using default"
+              pip install git+https://github.com/DukeCosmology/roman_imsim.git
+          fi
 
       - name: Run GalSim
         run: |
