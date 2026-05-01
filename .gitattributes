@@ -1,3 +1,4 @@
 skyCatalog/*.hdf5 filter=lfs diff=lfs merge=lfs -text
 skyCatalog/*.parquet filter=lfs diff=lfs merge=lfs -text
 "reference/**" filter=lfs diff=lfs merge=lfs -text
+"reference/**/*.png" -text
