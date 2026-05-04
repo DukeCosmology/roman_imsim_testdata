@@ -43,28 +43,42 @@ jobs:
         run: |
           galsim hack.yaml
 
-      - name: Commit and push output
+      - name: Check if image changed
         run: |
           if fitsdiff --ignore-keywords VERSION output/RomanWAS_new/images/truth/Roman_WAS_truth_J129_12909_4.fits.gz reference/RomanWAS_new/images/truth/Roman_WAS_truth_J129_12909_4.fits.gz; then
               echo "reference image is unchanged"
+              IMAGE_CHANGED=false
           else
               echo "reference image is changed"
-              mv -v output/RomanWAS_new/images/truth/Roman_WAS_truth_J129_12909_4.fits.gz reference/RomanWAS_new/images/truth/Roman_WAS_truth_J129_12909_4.fits.gz
+              IMAGE_CHANGED=true
           fi
+          echo "IMAGE_CHANGED=${IMAGE_CHANGED}" >> $GITHUB_ENV
 
+      - name: Convert FITS to PNG and commit
+        if: env.IMAGE_CHANGED == 'true'
+        run: |
+          pip install matplotlib
+          fits2bitmap --stretch asinh --percent 99 -o reference/RomanWAS_new/images/truth/Roman_WAS_truth_J129_12909_4.png output/RomanWAS_new/images/truth/Roman_WAS_truth_J129_12909_4.fits.gz
+
+          # Overwrite the reference with the new image
+          mv -v output/RomanWAS_new/images/truth/Roman_WAS_truth_J129_12909_4.fits.gz reference/RomanWAS_new/images/truth/Roman_WAS_truth_J129_12909_4.fits.gz
+
+      - name: Check if table changed
+        run: |
           if diff output/RomanWAS_new/truth/Roman_WAS_index_J129_12909_4.txt reference/RomanWAS_new/truth/Roman_WAS_index_J129_12909_4.txt; then
               echo "reference table is unchanged"
+              TABLE_CHANGED=false
           else
               echo "reference table is changed"
+              TABLE_CHANGED=true
               mv -v output/RomanWAS_new/truth/Roman_WAS_index_J129_12909_4.txt reference/RomanWAS_new/truth/Roman_WAS_index_J129_12909_4.txt
           fi
+          echo "TABLE_CHANGED=${TABLE_CHANGED}" >> $GITHUB_ENV
 
-          if git diff --exit-code; then
-              echo "reference/ is unchanged; no action needed"
-          else
-              echo "reference/ is changed; pushing updates"
-              git add reference
-              git commit -m "Update reference"
-              git push
-          fi
-
+      - name: Commit changes and push
+        if: env.IMAGE_CHANGED == 'true' || env.TABLE_CHANGED == 'true'
+        run: |
+          echo "reference/ is changed; pushing updates"
+          git add reference
+          git commit -m "Update reference"
+          git push
