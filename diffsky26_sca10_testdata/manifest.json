@@ -1,0 +1,375 @@
+{
+  "source_catalog": "/Users/mat90/Downloads/diffsky26/diffsky26",
+  "source_pointings": "/Users/mat90/repos/rampsim/test.fits",
+  "pointing_row": 0,
+  "sca": 10,
+  "healpix": 8722,
+  "edge_pix": 0,
+  "pointing": {
+    "date_mjd": 61441.0,
+    "exptime": 139.8,
+    "ra_deg": 232.03125,
+    "dec_deg": -24.624318,
+    "pa_deg": 0.0,
+    "filter": "H158"
+  },
+  "footprint_vertices_deg": [
+    [
+      231.88760397519266,
+      -24.721185711128555
+    ],
+    [
+      232.02505694927854,
+      -24.721092157194935
+    ],
+    [
+      232.02562047315433,
+      -24.598582177039493
+    ],
+    [
+      231.88830278640836,
+      -24.598676352644734
+    ]
+  ],
+  "galaxy_count": 2467,
+  "runtime_bucket_counts": {
+    "pixel_8722_100.diffsky_gals.hdf5": 6,
+    "pixel_8722_102.diffsky_gals.hdf5": 35,
+    "pixel_8722_105.diffsky_gals.hdf5": 42,
+    "pixel_8722_107.diffsky_gals.hdf5": 50,
+    "pixel_8722_110.diffsky_gals.hdf5": 27,
+    "pixel_8722_113.diffsky_gals.hdf5": 82,
+    "pixel_8722_116.diffsky_gals.hdf5": 55,
+    "pixel_8722_119.diffsky_gals.hdf5": 5,
+    "pixel_8722_121.diffsky_gals.hdf5": 69,
+    "pixel_8722_124.diffsky_gals.hdf5": 60,
+    "pixel_8722_127.diffsky_gals.hdf5": 54,
+    "pixel_8722_131.diffsky_gals.hdf5": 69,
+    "pixel_8722_134.diffsky_gals.hdf5": 46,
+    "pixel_8722_137.diffsky_gals.hdf5": 57,
+    "pixel_8722_141.diffsky_gals.hdf5": 58,
+    "pixel_8722_144.diffsky_gals.hdf5": 101,
+    "pixel_8722_148.diffsky_gals.hdf5": 36,
+    "pixel_8722_151.diffsky_gals.hdf5": 50,
+    "pixel_8722_155.diffsky_gals.hdf5": 86,
+    "pixel_8722_159.diffsky_gals.hdf5": 43,
+    "pixel_8722_163.diffsky_gals.hdf5": 69,
+    "pixel_8722_167.diffsky_gals.hdf5": 31,
+    "pixel_8722_171.diffsky_gals.hdf5": 83,
+    "pixel_8722_176.diffsky_gals.hdf5": 51,
+    "pixel_8722_180.diffsky_gals.hdf5": 48,
+    "pixel_8722_184.diffsky_gals.hdf5": 51,
+    "pixel_8722_189.diffsky_gals.hdf5": 66,
+    "pixel_8722_194.diffsky_gals.hdf5": 15,
+    "pixel_8722_198.diffsky_gals.hdf5": 34,
+    "pixel_8722_203.diffsky_gals.hdf5": 22,
+    "pixel_8722_208.diffsky_gals.hdf5": 100,
+    "pixel_8722_213.diffsky_gals.hdf5": 65,
+    "pixel_8722_219.diffsky_gals.hdf5": 80,
+    "pixel_8722_224.diffsky_gals.hdf5": 62,
+    "pixel_8722_230.diffsky_gals.hdf5": 80,
+    "pixel_8722_235.diffsky_gals.hdf5": 38,
+    "pixel_8722_241.diffsky_gals.hdf5": 31,
+    "pixel_8722_247.diffsky_gals.hdf5": 31,
+    "pixel_8722_253.diffsky_gals.hdf5": 10,
+    "pixel_8722_259.diffsky_gals.hdf5": 22,
+    "pixel_8722_266.diffsky_gals.hdf5": 36,
+    "pixel_8722_272.diffsky_gals.hdf5": 87,
+    "pixel_8722_279.diffsky_gals.hdf5": 39,
+    "pixel_8722_286.diffsky_gals.hdf5": 25,
+    "pixel_8722_293.diffsky_gals.hdf5": 1,
+    "pixel_8722_300.diffsky_gals.hdf5": 9,
+    "pixel_8722_307.diffsky_gals.hdf5": 36,
+    "pixel_8722_315.diffsky_gals.hdf5": 95,
+    "pixel_8722_323.diffsky_gals.hdf5": 20,
+    "pixel_8722_331.diffsky_gals.hdf5": 15,
+    "pixel_8722_338.diffsky_gals.hdf5": 19,
+    "pixel_8722_347.diffsky_gals.hdf5": 12,
+    "pixel_8722_355.diffsky_gals.hdf5": 16,
+    "pixel_8722_365.diffsky_gals.hdf5": 3,
+    "pixel_8722_373.diffsky_gals.hdf5": 1,
+    "pixel_8722_382.diffsky_gals.hdf5": 4,
+    "pixel_8722_392.diffsky_gals.hdf5": 6,
+    "pixel_8722_411.diffsky_gals.hdf5": 7,
+    "pixel_8722_464.diffsky_gals.hdf5": 3,
+    "pixel_8722_97.diffsky_gals.hdf5": 22
+  },
+  "files": {
+    "diffsky26_galaxy_8722.parquet": {
+      "bytes": 358979,
+      "sha256": "0b142c17d4a4b883a633d4ed2bd59e92b8022f7a21a45b46949121c4ea0b9b61"
+    },
+    "diffsky26_galaxy_flux_8722.parquet": {
+      "bytes": 193127,
+      "sha256": "53dbe1d6d197b1759496003a5b9c381f6a5b9d0ce5fd6232490ba33e29510e3a"
+    },
+    "diffsky_galaxy.yaml": {
+      "bytes": 1233,
+      "sha256": "8a2115a3affc2784c54265f078dba60af80e9996c87ee4d2c29e35aeab2f977e"
+    },
+    "diffsky_runtime/diffsky_c260710_09_02_2026_param_collection.hdf5": {
+      "bytes": 93360,
+      "sha256": "69d5e6a006b6d90caaa1789ab44bc122b3591b6194afffc65722b50fa7af135e"
+    },
+    "diffsky_runtime/diffsky_c260710_09_02_2026_ssp_data.hdf5": {
+      "bytes": 89888994,
+      "sha256": "7a8b983439fc218e3a94533764dbdc4e89dd5d45f8156dc3c4a906558562196f"
+    },
+    "diffsky_runtime/diffsky_c260710_09_02_2026_t_table.hdf5": {
+      "bytes": 4237,
+      "sha256": "58cfbe5c166ee0837e2b2fb5e917f76a783d40510dc1907decf327a36aca5f2e"
+    },
+    "diffsky_runtime/diffsky_c260710_09_02_2026_transmission_curves.hdf5": {
+      "bytes": 497965,
+      "sha256": "1f6251afe5b422438b515462aef5108026fe77754d165f0f9c337aaabc1a2ebf"
+    },
+    "diffsky_runtime/pixel_8722/pixel_8722_100.diffsky_gals.hdf5": {
+      "bytes": 105680,
+      "sha256": "23e6e660cbc0a88d36a5f62a2c4473931bcc14b4a204c3a5efd8f382627c4034"
+    },
+    "diffsky_runtime/pixel_8722/pixel_8722_102.diffsky_gals.hdf5": {
+      "bytes": 111824,
+      "sha256": "0f9dda25f0585b85babf9f0b30c1b543bb6a40039b11d89f85310d78b5949bee"
+    },
+    "diffsky_runtime/pixel_8722/pixel_8722_105.diffsky_gals.hdf5": {
+      "bytes": 112469,
+      "sha256": "1604b5fdd6a6fafa6eecba5c4f0a6524b32d67281d8641167d0e8ce8b3ca6a42"
+    },
+    "diffsky_runtime/pixel_8722/pixel_8722_107.diffsky_gals.hdf5": {
+      "bytes": 114464,
+      "sha256": "d2624bc697b1f03ca6dccd43853cdfcaf4fdb0941f5ccf7c6bab222ff3c22805"
+    },
+    "diffsky_runtime/pixel_8722/pixel_8722_110.diffsky_gals.hdf5": {
+      "bytes": 109776,
+      "sha256": "b19ade7d4cbc8ffc05ea7a24afe0905326beda8af05302fb67f7de51107dac26"
+    },
+    "diffsky_runtime/pixel_8722/pixel_8722_113.diffsky_gals.hdf5": {
+      "bytes": 121632,
+      "sha256": "439437daac3adfc6e10e999906b9f772a66dceeff0115b95df79eec48b151692"
+    },
+    "diffsky_runtime/pixel_8722/pixel_8722_116.diffsky_gals.hdf5": {
+      "bytes": 116348,
+      "sha256": "e2db20325dbef536927d862184ed54d25dc7444c9119616df656ffc8458b9728"
+    },
+    "diffsky_runtime/pixel_8722/pixel_8722_119.diffsky_gals.hdf5": {
+      "bytes": 105680,
+      "sha256": "f3d73ce6d9950925815545a2c3c7fcdd2f8e93b97b4cc6e1fb6a1e2283ffb947"
+    },
+    "diffsky_runtime/pixel_8722/pixel_8722_121.diffsky_gals.hdf5": {
+      "bytes": 119015,
+      "sha256": "2397961956508a228007ec8a29ded7c78e8a1e2b3e84c5bcba9d800fc4b20875"
+    },
+    "diffsky_runtime/pixel_8722/pixel_8722_124.diffsky_gals.hdf5": {
+      "bytes": 117020,
+      "sha256": "93315ee4bdc836d48d3356710bc9a4bc86d018813706d5972f5d767209183387"
+    },
+    "diffsky_runtime/pixel_8722/pixel_8722_127.diffsky_gals.hdf5": {
+      "bytes": 116314,
+      "sha256": "f8a387e038eea130a5b6271e49fc4264feae67128e1230d058d64e8fbbde9047"
+    },
+    "diffsky_runtime/pixel_8722/pixel_8722_131.diffsky_gals.hdf5": {
+      "bytes": 119005,
+      "sha256": "61be0c02185cd68bf638fc971c0f66300475200af7742ff004f717648c302fde"
+    },
+    "diffsky_runtime/pixel_8722/pixel_8722_134.diffsky_gals.hdf5": {
+      "bytes": 113906,
+      "sha256": "87a6c8d377eba3132e3980f072c450fa562994bfe892aa952ec694ccff6883cd"
+    },
+    "diffsky_runtime/pixel_8722/pixel_8722_137.diffsky_gals.hdf5": {
+      "bytes": 116440,
+      "sha256": "879e0d59637c9582a9d958f189e86af60f1baf3e5571dbfc0abc265ee7b42b4f"
+    },
+    "diffsky_runtime/pixel_8722/pixel_8722_141.diffsky_gals.hdf5": {
+      "bytes": 116926,
+      "sha256": "cae30b767c4dbaea5e4efb231b2ed595c0fb6aa9a3588dab475d5c6c6f1a8d91"
+    },
+    "diffsky_runtime/pixel_8722/pixel_8722_144.diffsky_gals.hdf5": {
+      "bytes": 129369,
+      "sha256": "bf6e1316e98316a6107c799f3bb26838cfb1427437edcfa49d660a29b89cf205"
+    },
+    "diffsky_runtime/pixel_8722/pixel_8722_148.diffsky_gals.hdf5": {
+      "bytes": 111824,
+      "sha256": "ea3d425efd69f1a8cc08e5e423297d2c8edc3ce752238437651692d40512df9d"
+    },
+    "diffsky_runtime/pixel_8722/pixel_8722_151.diffsky_gals.hdf5": {
+      "bytes": 114085,
+      "sha256": "26f5a427c78f4fa02a3d333d8dde4d237b0140364339fea5c8443d07a65e05eb"
+    },
+    "diffsky_runtime/pixel_8722/pixel_8722_155.diffsky_gals.hdf5": {
+      "bytes": 122454,
+      "sha256": "6610581c45c7e0ef60aefc9e6aa10103a405a6fd24ef807400588654bf2b1ecc"
+    },
+    "diffsky_runtime/pixel_8722/pixel_8722_159.diffsky_gals.hdf5": {
+      "bytes": 113872,
+      "sha256": "665ed339d072067261a8a1f0e29acc04b7d4b033ccdf62d56bde5b2c9e866277"
+    },
+    "diffsky_runtime/pixel_8722/pixel_8722_163.diffsky_gals.hdf5": {
+      "bytes": 119007,
+      "sha256": "3b21c1128b106eca9c3512b83df162d39433f37db4246ee36fdcee7d531981a7"
+    },
+    "diffsky_runtime/pixel_8722/pixel_8722_167.diffsky_gals.hdf5": {
+      "bytes": 110017,
+      "sha256": "bd98742b71d93fd52aaadbfbd221154f93aa931f9e97467016230047a7262cf3"
+    },
+    "diffsky_runtime/pixel_8722/pixel_8722_171.diffsky_gals.hdf5": {
+      "bytes": 121658,
+      "sha256": "1740cf767e3103ad531d239e48443034eeca6d2f926430a8ab52c02354a9b60b"
+    },
+    "diffsky_runtime/pixel_8722/pixel_8722_176.diffsky_gals.hdf5": {
+      "bytes": 114127,
+      "sha256": "e7403299ae45fc1dd09a751c36aa3834be63953cdc6c95041a1bc8c2aee8465a"
+    },
+    "diffsky_runtime/pixel_8722/pixel_8722_180.diffsky_gals.hdf5": {
+      "bytes": 113996,
+      "sha256": "96dce4039de89962378eb195289543ef75128969f9059c02b56cacbb4d8e1cae"
+    },
+    "diffsky_runtime/pixel_8722/pixel_8722_184.diffsky_gals.hdf5": {
+      "bytes": 114131,
+      "sha256": "422419dcc5e13f7c5d5e3c7e095e57476b4d5fdfc1d1ab2f724027199775901f"
+    },
+    "diffsky_runtime/pixel_8722/pixel_8722_189.diffsky_gals.hdf5": {
+      "bytes": 117843,
+      "sha256": "6e81150cf20cba3fc519e131c917ea974d617c0f08e306fdbce2393f5fa3ec58"
+    },
+    "diffsky_runtime/pixel_8722/pixel_8722_194.diffsky_gals.hdf5": {
+      "bytes": 107728,
+      "sha256": "d59050ddf4a4d9535dc7840dd8f4c986f721bf98fb337dfddf6171373a2b888c"
+    },
+    "diffsky_runtime/pixel_8722/pixel_8722_198.diffsky_gals.hdf5": {
+      "bytes": 111824,
+      "sha256": "c2a187a1277ee638889741fc43261cb746b2e5b2311cf941c19a568b04c55ad1"
+    },
+    "diffsky_runtime/pixel_8722/pixel_8722_203.diffsky_gals.hdf5": {
+      "bytes": 107901,
+      "sha256": "9913c14f7dfdc6343d8d0d7447e6cfb8afd747456ac14c8d25a22c05ec51cf91"
+    },
+    "diffsky_runtime/pixel_8722/pixel_8722_208.diffsky_gals.hdf5": {
+      "bytes": 128016,
+      "sha256": "467a0123b294023cb30d75ec2b9b33c7823396602b3bcf69bec88814c0ba2139"
+    },
+    "diffsky_runtime/pixel_8722/pixel_8722_213.diffsky_gals.hdf5": {
+      "bytes": 117277,
+      "sha256": "c105fb78862cf0af16aac73301c7a80b8250342e12cb65301cea8169248eac78"
+    },
+    "diffsky_runtime/pixel_8722/pixel_8722_219.diffsky_gals.hdf5": {
+      "bytes": 121543,
+      "sha256": "ad3010d88cc209193d1745865222e966c8f613f6bbea6992eb30d3d989d82ba3"
+    },
+    "diffsky_runtime/pixel_8722/pixel_8722_224.diffsky_gals.hdf5": {
+      "bytes": 116654,
+      "sha256": "f84bf7edde0307043f01ba5531647b49d83eb0fd01bb773e99d90d4096cd8375"
+    },
+    "diffsky_runtime/pixel_8722/pixel_8722_230.diffsky_gals.hdf5": {
+      "bytes": 121541,
+      "sha256": "1f697dae05328cab234c2271223103653e91e1b84cf44baf3dec5a8bf212ed13"
+    },
+    "diffsky_runtime/pixel_8722/pixel_8722_235.diffsky_gals.hdf5": {
+      "bytes": 111824,
+      "sha256": "c5bef44d0f6ba3574158cf96b8bdeffc0893e7760d331f68bf82b61817f7bd03"
+    },
+    "diffsky_runtime/pixel_8722/pixel_8722_241.diffsky_gals.hdf5": {
+      "bytes": 110016,
+      "sha256": "1ca986ce03f602eb694e54c4092354b9432686ff3e964a93d52da8fad04dc094"
+    },
+    "diffsky_runtime/pixel_8722/pixel_8722_247.diffsky_gals.hdf5": {
+      "bytes": 110018,
+      "sha256": "124abe21433f1201c2c9484fd81761bb2e244dcff3ae5110a338f9877793b64a"
+    },
+    "diffsky_runtime/pixel_8722/pixel_8722_253.diffsky_gals.hdf5": {
+      "bytes": 105680,
+      "sha256": "9cd73e559751df296e20b272589a7819275fd819428f73b1e9ab5f3041cf98dc"
+    },
+    "diffsky_runtime/pixel_8722/pixel_8722_259.diffsky_gals.hdf5": {
+      "bytes": 108076,
+      "sha256": "6f801f22e4121d652e40835918ecf6570829f6ea693cf1499068e5159be061d5"
+    },
+    "diffsky_runtime/pixel_8722/pixel_8722_266.diffsky_gals.hdf5": {
+      "bytes": 111824,
+      "sha256": "0027733d22acdb3dfa1392f7378647f4db1156adde33f026c7aa75832ddd11a9"
+    },
+    "diffsky_runtime/pixel_8722/pixel_8722_272.diffsky_gals.hdf5": {
+      "bytes": 121845,
+      "sha256": "660216ed51c0a9f38e75944238cbc1a21c81aa7ab56011f2a901c817b67959ae"
+    },
+    "diffsky_runtime/pixel_8722/pixel_8722_279.diffsky_gals.hdf5": {
+      "bytes": 111824,
+      "sha256": "4f93499fc55445e23d093dc794863de722c1d8b136d2b60cd485dd082179b6d7"
+    },
+    "diffsky_runtime/pixel_8722/pixel_8722_286.diffsky_gals.hdf5": {
+      "bytes": 109776,
+      "sha256": "2f105323cbb07fa4880af02365014d7c9a3ae998436a15946b80d0edce9aea28"
+    },
+    "diffsky_runtime/pixel_8722/pixel_8722_293.diffsky_gals.hdf5": {
+      "bytes": 103632,
+      "sha256": "3ab0d9224f08f3b9aa043323360f6df8a5c9055262aff1804147d5388d6dfcba"
+    },
+    "diffsky_runtime/pixel_8722/pixel_8722_300.diffsky_gals.hdf5": {
+      "bytes": 105680,
+      "sha256": "77bdb2cb96e11b60151fcea6a72f4a11c0096de7680f875f769fec8b49896a46"
+    },
+    "diffsky_runtime/pixel_8722/pixel_8722_307.diffsky_gals.hdf5": {
+      "bytes": 111824,
+      "sha256": "89fa695fa7e09bb3f7619df9b5d59b7f932656606cfe0fe35ca27a4ebf4b7299"
+    },
+    "diffsky_runtime/pixel_8722/pixel_8722_315.diffsky_gals.hdf5": {
+      "bytes": 125686,
+      "sha256": "ef895fed89eec8c00244e5fa604238c6b2cbc6a6df3ddeac435f86ce2700aa6c"
+    },
+    "diffsky_runtime/pixel_8722/pixel_8722_323.diffsky_gals.hdf5": {
+      "bytes": 107728,
+      "sha256": "d1e3867943eeb9955273fbf63e0baaedac2b7dfa5b31b97220c8a805cecce356"
+    },
+    "diffsky_runtime/pixel_8722/pixel_8722_331.diffsky_gals.hdf5": {
+      "bytes": 107728,
+      "sha256": "b7a7ece834ec929880ff8afec0a5d9f922355a91c4fcc06a2234508bcba2c6bc"
+    },
+    "diffsky_runtime/pixel_8722/pixel_8722_338.diffsky_gals.hdf5": {
+      "bytes": 107728,
+      "sha256": "c5b28fc8a7e59d997d59cde818ba0eaf7b45ce9aa84a807a6f5581f3b084fabe"
+    },
+    "diffsky_runtime/pixel_8722/pixel_8722_347.diffsky_gals.hdf5": {
+      "bytes": 105780,
+      "sha256": "9faddc2be074ac5dae6cefece327606b866ec112f3c6647aa4d95e770e693ba0"
+    },
+    "diffsky_runtime/pixel_8722/pixel_8722_355.diffsky_gals.hdf5": {
+      "bytes": 107728,
+      "sha256": "822e02823036c3093e705dc61ad5eb89cbb9f9c1117799d7f38ac803a752127d"
+    },
+    "diffsky_runtime/pixel_8722/pixel_8722_365.diffsky_gals.hdf5": {
+      "bytes": 105680,
+      "sha256": "224127a5ebf6a3b06545afcbeee4dcfaf8407527d58ee08fa63145aaf0765d5c"
+    },
+    "diffsky_runtime/pixel_8722/pixel_8722_373.diffsky_gals.hdf5": {
+      "bytes": 103632,
+      "sha256": "c2de5ad5310bb698a002e4d705820865830db04ba9c9f1789536522654534ba3"
+    },
+    "diffsky_runtime/pixel_8722/pixel_8722_382.diffsky_gals.hdf5": {
+      "bytes": 105680,
+      "sha256": "5c09572f7e1d292e0c58d562f69e61df733b94fa70ee1a2e161aa13da0ed7f2c"
+    },
+    "diffsky_runtime/pixel_8722/pixel_8722_392.diffsky_gals.hdf5": {
+      "bytes": 105680,
+      "sha256": "dcc35a26a195becfe8d37be761767789f4af8de36f7ea0b8f64d8081e3d8a48f"
+    },
+    "diffsky_runtime/pixel_8722/pixel_8722_411.diffsky_gals.hdf5": {
+      "bytes": 105680,
+      "sha256": "4f84f356844e0bac991ac63b71eb5ea397af7499e0d499eba27bc8266fde3676"
+    },
+    "diffsky_runtime/pixel_8722/pixel_8722_464.diffsky_gals.hdf5": {
+      "bytes": 105680,
+      "sha256": "3f09050bf8e0c34380685a37f856d1fbbbf0f256534e7e3d882265b337f72e2b"
+    },
+    "diffsky_runtime/pixel_8722/pixel_8722_97.diffsky_gals.hdf5": {
+      "bytes": 108076,
+      "sha256": "9c8b10e5c06d2b82354dead74a1460370d2d3404d78fbbb5498d67bdd1055634"
+    },
+    "skyCatalog.yaml": {
+      "bytes": 208,
+      "sha256": "8cafcf5741a5f4600a15c32c5746b38e1dea51b2b3d872ad89cf252bc437bcf9"
+    },
+    "test.fits": {
+      "bytes": 8640,
+      "sha256": "d61fa7371ceb63a47bdf7a6465138ac957c6b5b577f7ec06ff4231f56cdaf8f6"
+    }
+  }
+}

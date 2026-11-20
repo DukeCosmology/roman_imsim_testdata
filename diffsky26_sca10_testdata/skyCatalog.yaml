@@ -1,0 +1,6 @@
+catalog_dir: diffsky26_sca10_testdata_new
+catalog_name: diffsky26_sca10_test
+object_types:
+  diffsky26_galaxy: !include diffsky26_galaxy.yaml
+schema_version: 1.3.0
+skycatalog_root: /Users/mat90/repos/rampsim
