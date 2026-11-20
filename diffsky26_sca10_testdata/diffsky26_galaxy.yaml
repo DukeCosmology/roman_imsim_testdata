@@ -1,0 +1,51 @@
+Cosmology:
+  H0: 67.66
+  Ob0: 0.04897468161869667
+  Om0: 0.3096446816186967
+area_partition:
+  nside: 32
+  ordering: ring
+  type: healpix
+components:
+  diffsky_bulge:
+    MW_extinction: F19
+    internal_extinction: CCM
+    parent: diffsky26_galaxy
+    sed_model: diffsky_runtime
+    spatial_model: sersic2D
+    subtype: bulge
+  diffsky_disk:
+    MW_extinction: F19
+    internal_extinction: CCM
+    parent: diffsky26_galaxy
+    sed_model: diffsky_runtime
+    spatial_model: sersic2D
+    subtype: disk
+  diffsky_knots:
+    MW_extinction: F19
+    internal_extinction: CCM
+    parent: diffsky26_galaxy
+    sed_model: diffsky_runtime
+    spatial_model: knots
+    subtype: knots
+composite:
+  bulge: required
+  disk: required
+  knots: optional
+data_file_type: parquet
+file_template: diffsky26_galaxy_(?P<healpix>\d+).parquet
+flux_file_template: diffsky26_galaxy_flux_(?P<healpix>\d+).parquet
+sed_cache_size: 2
+sed_diffsky_batch_size: 12
+sed_engine: fast
+sed_model: diffsky_runtime
+sed_object_batch_size: 512
+sed_pixel_cache_size: 1
+sed_precision: float32
+sed_redshift_bucket_width: 0.5
+sed_rel_err: 0.03
+sed_ssp_wave_max_micron: 2.34
+sed_ssp_wave_min_micron: 0.06
+sed_state_dir: diffsky_runtime
+sed_wave_ang_max: 23400
+sed_wave_ang_min: 600
